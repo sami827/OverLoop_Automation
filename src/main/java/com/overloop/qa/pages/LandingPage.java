@@ -13,10 +13,6 @@ public class LandingPage extends BaseClass {
     private String ACTUAL_TITLE = "Free CRM Software & Sales Pipeline Management | Overloop CRM";
 
 
-    private String SIGNIN_LINK_INIT = "//a[contains(text(), 'Sign in')]"; //xpath
-    private String USER_NAME = "email"; //name
-    private String USER_PASSWORD = "password"; //name
-
 
     @FindBy(xpath = "//a[text()='Log In']")
     WebElement loginBtn;
