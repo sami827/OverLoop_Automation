@@ -27,8 +27,6 @@ public class LoginPageTest extends BaseClass {
         initialization();
         landingPage = new LandingPage();
         loginPage = landingPage.clickingLogInBtn();
-        loginPage = new LoginPage();
-
     }
 
     @Test
