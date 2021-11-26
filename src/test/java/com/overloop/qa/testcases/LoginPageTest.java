@@ -4,6 +4,7 @@ import com.overloop.qa.base.BaseClass;
 import com.overloop.qa.pages.LandingPage;
 import com.overloop.qa.pages.LoginPage;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -36,7 +37,7 @@ public class LoginPageTest extends BaseClass {
         loginPage.loginWith(USER_NAME, USER_PASSWORD);
         loginPage.clickingLoginBtn();
     }
-
+    @AfterMethod
     public void tearDown() throws InterruptedException {
         Thread.sleep(4000);
         driver.quit();
