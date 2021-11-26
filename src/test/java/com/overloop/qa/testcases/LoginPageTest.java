@@ -8,6 +8,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class LoginPageTest extends BaseClass {
 
     private String USER_NAME = prop.getProperty("email");
@@ -31,7 +33,7 @@ public class LoginPageTest extends BaseClass {
 
     @Test
     public void test1() throws InterruptedException {
-        Thread.sleep(4000);
+        driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
         boolean flag = loginPage.validatingPage();
         Assert.assertTrue(flag);
         loginPage.loginWith(USER_NAME, USER_PASSWORD);
