@@ -31,6 +31,6 @@ public class LandingPageTest extends BaseClass {
     @AfterMethod
     public void tearDown() throws InterruptedException {
        Thread.sleep(4000);
-       //driver.quit();
+       driver.quit();
     }
 }

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Overloop Automation Test Suite">
+    <test name="Overloop Application Test">
+        <classes>
+            <class name="com.overloop.qa.testcases.LandingPageTest"></class>
+            <class name="com.overloop.qa.testcases.LoginPageTest"></class>
+            <class name="com.overloop.qa.testcases.HomePageTest"></class>
+        </classes>
+    </test>
+</suite>
