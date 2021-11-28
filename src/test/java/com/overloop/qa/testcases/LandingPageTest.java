@@ -22,14 +22,15 @@ public class LandingPageTest extends BaseClass {
     }
 
     @Test
-    public void TestCase1() {
+    public void TestCase1() throws InterruptedException {
+        Thread.sleep(5000);
         landingPage.validateTitle();
         loginPage = landingPage.clickingLogInBtn();
     }
 
     @AfterMethod
     public void tearDown() throws InterruptedException {
-        Thread.sleep(4000);
-        driver.quit();
+       Thread.sleep(4000);
+       //driver.quit();
     }
 }

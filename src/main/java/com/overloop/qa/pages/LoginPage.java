@@ -17,7 +17,7 @@ public class LoginPage extends BaseClass {
 
     // Initializing Methods
 
-    public void loginWith(String email, String password) {
+    public HomePage loginWith(String email, String password) {
         WebElement emailFiled = driver.findElement(By.id(USER_NAME_FIELD));
         emailFiled.clear();
         emailFiled.sendKeys(email);
@@ -26,11 +26,10 @@ public class LoginPage extends BaseClass {
         passwordField.clear();
         passwordField.sendKeys(password);
 
-    }
-
-    public void clickingLoginBtn() {
         WebElement loginBtn = driver.findElement(By.xpath(LOGIN_BUTTON));
         loginBtn.click();
+        return new HomePage();
+
     }
 
     public boolean validatingPage() {

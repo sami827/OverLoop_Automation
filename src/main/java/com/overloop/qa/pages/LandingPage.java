@@ -8,8 +8,6 @@ import org.testng.Assert;
 
 public class LandingPage extends BaseClass {
 
-
-    private String LOGIN_BTN = "//a[text()='Log In']"; //xpath
     private String ACTUAL_TITLE = "Free CRM Software & Sales Pipeline Management | Overloop CRM";
 
 
