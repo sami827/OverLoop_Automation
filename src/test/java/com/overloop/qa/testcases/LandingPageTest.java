@@ -21,11 +21,18 @@ public class LandingPageTest extends BaseClass {
         landingPage = new LandingPage();
     }
 
-    @Test
-    public void TestCase1() throws InterruptedException {
+    @Test(priority = 2)
+    public void naviagatingLoginPage() throws InterruptedException {
         Thread.sleep(5000);
         landingPage.validateTitle();
         loginPage = landingPage.clickingLogInBtn();
+    }
+
+    @Test(priority = 1)
+    public void workingWithDropdown() {
+        landingPage.clickingDrpDown();
+        landingPage.hoveringOverLements();
+        landingPage.clickingConversation();
     }
 
     @AfterMethod
