@@ -25,6 +25,9 @@ public class LandingPage extends BaseClass {
     @FindBy(xpath = "//span[contains(text(),'Conversation')]")
     WebElement drpDownConverstion;
 
+    @FindBy(xpath = "//a[contains(text(),'Pricing')]")
+    WebElement priceBtn;
+
 
 
 
@@ -35,15 +38,6 @@ public class LandingPage extends BaseClass {
     }
 
     //ACTIONS
-
-    //Clicking login button
-    public LoginPage clickingLogInBtn() {
-        loginBtn.click();
-        System.out.println("Login Button Clicked");
-
-        return new LoginPage();
-    }
-
     public String expectedTitle() {
         String title = driver.getTitle();
         return title;
@@ -53,6 +47,25 @@ public class LandingPage extends BaseClass {
         Assert.assertEquals(expectedTitle(), ACTUAL_TITLE);
         System.out.println("Title Matched");
     }
+
+    //Clicking login button
+    public LoginPage clickingLogInBtn() {
+        loginBtn.click();
+        System.out.println("Login Button Clicked");
+
+        return new LoginPage();
+    }
+
+    //Clicking Price Button
+    public PricePage clickingPriceBtn() {
+        priceBtn.click();
+        System.out.println("Clicked Price Button");
+
+        return new PricePage();
+    }
+
+
+    //Product Dropdown Section
 
     public void clickingDrpDown() {
         drpDownBtn.click();
