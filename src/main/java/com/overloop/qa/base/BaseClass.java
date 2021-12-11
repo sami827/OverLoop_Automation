@@ -2,6 +2,7 @@ package com.overloop.qa.base;
 
 
 import com.overloop.qa.utilities.TestUtility;
+import com.overloop.qa.utilities.WebEventListener;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -20,7 +21,9 @@ public class BaseClass {
 
     public static WebDriver driver;
     public static Properties prop;
-    public  static EventFiringWebDriver e_driver;
+    public static EventFiringWebDriver e_driver;
+    public static WebEventListener eventListener;
+
 
     public BaseClass() {
         try {
@@ -53,6 +56,15 @@ public class BaseClass {
         } else {
             System.out.println("Insert Correct Value");
         }
+
+        //Event Firing Listener
+
+        e_driver = new EventFiringWebDriver(driver);
+        eventListener = new WebEventListener();
+        e_driver.register(eventListener);
+        driver = e_driver;
+
+        //**************************************************************
 
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
