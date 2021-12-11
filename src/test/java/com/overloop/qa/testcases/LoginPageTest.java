@@ -34,7 +34,7 @@ public class LoginPageTest extends BaseClass {
 
     @Test
     public void test1() throws InterruptedException {
-        driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         boolean flag = loginPage.validatingPage();
         Assert.assertTrue(flag);
         homePage = loginPage.loginWith(USER_NAME, USER_PASSWORD);

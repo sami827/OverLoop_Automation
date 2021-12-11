@@ -51,7 +51,7 @@ public class BaseClass {
             WebDriverManager.edgedriver().setup();
             driver = new EdgeDriver();
         } else {
-            System.out.println("Insert Corrcect Value");
+            System.out.println("Insert Correct Value");
         }
 
         driver.manage().window().maximize();
