@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-09T00:55:02 BDT" name="Command line suite" finished-at="2021-12-09T00:56:50 BDT" duration-ms="108656">
+    <groups>
+    </groups>
+    <test started-at="2021-12-09T00:55:02 BDT" name="Command line test" finished-at="2021-12-09T00:56:50 BDT" duration-ms="108656">
+      <class name="com.overloop.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.overloop.qa.testcases.HomePageTest@5e57643e]" started-at="2021-12-09T00:55:02 BDT" name="setUp" finished-at="2021-12-09T00:55:34 BDT" duration-ms="32108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCase()[pri:0, instance:com.overloop.qa.testcases.HomePageTest@5e57643e]" started-at="2021-12-09T00:55:34 BDT" name="testCase" finished-at="2021-12-09T00:55:40 BDT" duration-ms="5947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.overloop.qa.testcases.HomePageTest@5e57643e]" started-at="2021-12-09T00:55:40 BDT" name="tearDown" finished-at="2021-12-09T00:55:46 BDT" duration-ms="6176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.overloop.qa.testcases.HomePageTest -->
+      <class name="com.overloop.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.overloop.qa.testcases.LoginPageTest@290dbf45]" started-at="2021-12-09T00:56:33 BDT" name="setup" finished-at="2021-12-09T00:56:44 BDT" duration-ms="10288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1()[pri:0, instance:com.overloop.qa.testcases.LoginPageTest@290dbf45]" started-at="2021-12-09T00:56:44 BDT" name="test1" finished-at="2021-12-09T00:56:44 BDT" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.overloop.qa.testcases.LoginPageTest@290dbf45]" started-at="2021-12-09T00:56:44 BDT" name="tearDown" finished-at="2021-12-09T00:56:50 BDT" duration-ms="5690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.overloop.qa.testcases.LoginPageTest -->
+      <class name="com.overloop.qa.testcases.LandingPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.overloop.qa.testcases.LandingPageTest@49c43f4e]" started-at="2021-12-09T00:55:46 BDT" name="setUp" finished-at="2021-12-09T00:55:56 BDT" duration-ms="10076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="workingWithDropdown()[pri:1, instance:com.overloop.qa.testcases.LandingPageTest@49c43f4e]" started-at="2021-12-09T00:55:56 BDT" name="workingWithDropdown" finished-at="2021-12-09T00:55:57 BDT" duration-ms="875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- workingWithDropdown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.overloop.qa.testcases.LandingPageTest@49c43f4e]" started-at="2021-12-09T00:55:57 BDT" name="tearDown" finished-at="2021-12-09T00:56:02 BDT" duration-ms="4846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.overloop.qa.testcases.LandingPageTest@49c43f4e]" started-at="2021-12-09T00:56:02 BDT" name="setUp" finished-at="2021-12-09T00:56:10 BDT" duration-ms="8574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigatingPricePage()[pri:2, instance:com.overloop.qa.testcases.LandingPageTest@49c43f4e]" started-at="2021-12-09T00:56:10 BDT" name="navigatingPricePage" finished-at="2021-12-09T00:56:13 BDT" duration-ms="2837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingPricePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.overloop.qa.testcases.LandingPageTest@49c43f4e]" started-at="2021-12-09T00:56:13 BDT" name="tearDown" finished-at="2021-12-09T00:56:18 BDT" duration-ms="4798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.overloop.qa.testcases.LandingPageTest@49c43f4e]" started-at="2021-12-09T00:56:18 BDT" name="setUp" finished-at="2021-12-09T00:56:23 BDT" duration-ms="5544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigatingLoginPage()[pri:3, instance:com.overloop.qa.testcases.LandingPageTest@49c43f4e]" started-at="2021-12-09T00:56:23 BDT" name="navigatingLoginPage" finished-at="2021-12-09T00:56:29 BDT" duration-ms="5358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.overloop.qa.testcases.LandingPageTest@49c43f4e]" started-at="2021-12-09T00:56:29 BDT" name="tearDown" finished-at="2021-12-09T00:56:33 BDT" duration-ms="4725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.overloop.qa.testcases.LandingPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

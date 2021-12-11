@@ -1,0 +1,4 @@
+com\overloop\qa\testcases\HomePageTest.class
+com\overloop\qa\testcases\LoginPageTest.class
+com\overloop\qa\testcases\PricePageText.class
+com\overloop\qa\testcases\LandingPageTest.class
